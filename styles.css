@@ -85,7 +85,7 @@ h3{font-size:1.5rem;margin-bottom:.8rem}
 .lab-track{display:flex;gap:2rem;padding:0 clamp(1.2rem,5vw,5rem);width:max-content;will-change:transform}
 .panel{width:min(70vw,640px);height:55vh;min-height:320px;border-radius:28px;padding:2rem;border:1px solid var(--olive);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
 .cafe{background:linear-gradient(145deg,#7fa35f,#566b34)}.fit{background:linear-gradient(145deg,#8a9a3b,#5a6a28)}.tech{background:linear-gradient(145deg,#7a9a52,#344420)}
-.shot{display:flex;gap:1rem;height:45%}.shot b{flex:1;border-radius:14px;background:rgba(217,240,198,.35);transition:transform .4s}.panel:hover .shot b:first-child{transform:translateY(-10px)}.panel:hover .shot b:last-child{transform:translateY(10px)}
+.shot{display:flex;gap:1rem;height:45%}.shot img{flex:1;min-width:0;width:50%;height:100%;object-fit:cover;border-radius:14px;background:rgba(217,240,198,.35);transition:transform .4s}.panel:hover .shot img:first-child{transform:translateY(-10px)}.panel:hover .shot img:last-child{transform:translateY(10px)}
 
 /* pricing */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;perspective:1200px}
